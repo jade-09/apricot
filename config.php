@@ -8,9 +8,9 @@ $email    = "";
 $errors = array(); 
 
 // connect to the database
-define('DB_SERVER', 'localhost');
-   define('DB_USERNAME', 'PuneethReddy');
-   define('DB_PASSWORD', '');
+define('DB_SERVER', 'sreesql.mysql.database.azure.com');
+   define('DB_USERNAME', 'sreenivas');
+   define('DB_PASSWORD', 'jade@123');
    define('DB_DATABASE', 'ecommerece');
    $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 if (!$db) {
